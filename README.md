@@ -1,16 +1,20 @@
-## Hi there 👋
+# SATA-BENCH: Select All That Apply Benchmark for Multiple Choice Questions
 
-<!--
-**sata-bench/sata-bench** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This repository contains the source code for our NeurIPS 2025 submission including dataset curation, evaluation and methods.
 
-Here are some ideas to get you started:
+## Requirements
+- Python 3.10
+- PyTorch 1.9+
+- [Other dependencies]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Installation
+```bash d.sh```
+git clone https://github.com/username/repo-name.git
+cd repo-name
+pip install -r requirements.txt
+
+## Benchmark Curation
+
+## Evaluation
+
+## Choice Funnel Method
