@@ -1,20 +1,23 @@
-# SATA-BENCH: Select All That Apply Benchmark for Multiple Choice Questions
+# SATA-Bench
 
-This repository contains the source code for our NeurIPS 2025 submission including dataset curation, evaluation and methods.
+A benchmark framework for experiments across dataset curation, methods, evaluation, and metrics.
 
-## Requirements
-- Python 3.10
-- PyTorch 1.9+
-- [Other dependencies]
+## Structure
 
-## Installation
-```bash d.sh```
-git clone https://github.com/username/repo-name.git
-cd repo-name
+- **dataset**: Dataset curation and preparation
+- **methods**: Implementation of methods being benchmarked
+- **evaluation**: Framework for evaluating method performance
+- **metrics**: Performance metrics calculation
+
+## Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/sata-bench/sata-bench.git
+cd sata-bench
+
+# Install dependencies
 pip install -r requirements.txt
 
-## Benchmark Curation
-
-## Evaluation
-
-## Choice Funnel Method
+# Install the package in development mode
+pip install -e .
