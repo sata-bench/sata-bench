@@ -1,5 +1,5 @@
 # SATA-Bench
-![](imgs/sata_llamas.png)
+<img src="imgs/sata_llamas.png" width="60%">
 A benchmark framework for experiments across dataset curation, methods, evaluation, and metrics.
 
 ## Structure
