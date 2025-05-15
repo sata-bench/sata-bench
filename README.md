@@ -11,6 +11,7 @@ This repo contains code for SATA-Bench including dataset curation, methods, eval
 
 ## 📋 Quick Start
 
+Tested Python version: python==3.10.
 ```bash
 # Clone the repository
 git clone https://github.com/sata-bench/sata-bench.git

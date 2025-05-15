@@ -31,7 +31,7 @@ class SATAModelRunner:
         )
 
         # turn on flash attn helps given we only do prefill to get first token
-        self.model.use_flash_attn = True
+        self.model.use_flash_attn = False
 
         # initialize the token ids which model will be generating in MCQ setting
         self.atoz = list(string.ascii_uppercase)
