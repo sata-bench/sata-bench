@@ -270,7 +270,7 @@ def collect_metrics(
     choice (e.g. "D") for the *i*‑th example. It is used to build indicator
     matrices of the appropriate width for SPD / RCKLD‑based scores.
     """
-    print( preds, labels)
+    #print( preds, labels)
     d = {
         "EM": exact_match(preds, labels),
         "Precision": precision_score(preds, labels),

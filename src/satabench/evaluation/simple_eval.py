@@ -6,7 +6,8 @@ Typical usage
 
 ```bash
 # Full evaluation on an OpenAI model.
-python3 -m satabench.evaluation.simple_eval --limit 5 --dataset satabench/dataset/final_A_multic_choice.csv --output satabench/dataset/gpt4o_predictions.csv --model gpt-4o-mini --repair_model gpt-4.1-mini
+python3 -m satabench.evaluation.simple_eval --limit 5 --dataset satabench/evaluation/dataset/final_A_multic_choice.csv --model gpt-4o-mini --repair_model gpt-4.1-mini --metrics-out satabench/eval
+uation/dataset/gpt4o_predictions.json
 ```
 
 The script is **agnostic** to the particular metric set – ``metrics.collect_metrics``
@@ -26,7 +27,7 @@ from typing import Any, Dict, List
 import pandas as pd
 # We re‑export symbols to avoid mypy/IDE complaints after the dynamic import.
 from ..evaluation.sata_eval import run_inference  # type: ignore  # noqa: E402
-from ..metrics.metrics import collect_metrics  # type: ignore  # noqa: E402
+from ..evaluation.metrics.metrics import collect_metrics  # type: ignore  # noqa: E402
 
 # ---------------------------------------------------------------------------------------
 
