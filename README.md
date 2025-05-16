@@ -85,7 +85,7 @@ Set env variable ```export SAMPLE_COUNT``` to adjust the sample count of SATA-Be
 
 ## 🔍 Issue Reporting
 
-If you encounter any bugs, have feature requests, or experience other issues with SataBench, please report them by opening an issue in our [GitHub Issues](https://github.com/yourusername/satabench/issues) page. 
+If you encounter any bugs, have feature requests, or experience other issues with SataBench, please report them by opening an issue in our [GitHub Issues]([https://github.com/yourusername/satabench/issues](https://github.com/sata-bench/sata-bench/issues)) page. 
 
 When reporting an issue, please include:
 - A clear and descriptive title
