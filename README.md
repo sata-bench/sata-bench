@@ -5,11 +5,11 @@ This repo contains code for SATA-Bench including dataset, evaluation scripts, an
 ## 🗂️ Repo Structure
 ```
 src/satabench/
-├── evaluation/           # scripts for evaluating LLMs in paper Section3
+├── evaluation/           # scripts for evaluating LLMs in paper Evaluation section
 │   ├── dataset/          # contains a test dataset to use
 │   └── metrics/          # metrics implementation
 |
-├── methods/              # methods implementation in paper Section4
+├── methods/              # methods implementation in paper Methods section
 │   ├── choice_funnel/    # Choice funnel algorithm
 │   ├── data/             # contains a test dataset to use
 │   └── utils/            # utility functions
