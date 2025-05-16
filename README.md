@@ -2,8 +2,8 @@
 <img src="imgs/sata_llamas.png" width="60%">
 This repo contains code for SATA-Bench including dataset, evaluation scripts, and methods implementation.
 
-## Repo Structure
-
+## 🗂️ Repo Structure
+```
 src/satabench/
 ├── evaluation/           # scripts for evaluating LLMs in paper Section3
 │   ├── dataset/          # contains a test dataset to use
@@ -13,8 +13,8 @@ src/satabench/
 │   ├── choice_funnel/    # Choice funnel algorithm
 │   ├── data/             # contains a test dataset to use
 │   └── utils/            # utility functions
-
-## 📋 Quick Start
+```
+## 🚀 Quick Start
 
 Tested Python version: python==3.10.
 ```bash
@@ -83,3 +83,15 @@ Set env variable ```export METHOD``` to select method from below:
 Set env variable ```export SAMPLE_COUNT``` to adjust the sample count of SATA-Bench based on needed (max 1650).
 
 
+## 🔍 Issue Reporting
+
+If you encounter any bugs, have feature requests, or experience other issues with SataBench, please report them by opening an issue in our [GitHub Issues](https://github.com/yourusername/satabench/issues) page. 
+
+When reporting an issue, please include:
+- A clear and descriptive title
+- Steps to reproduce the behavior
+- Expected behavior
+- Any relevant logs or error messages
+- Your environment information (OS, Python version, etc.)
+
+This helps us address your concerns more efficiently and improve SataBench for everyone.
