@@ -1,5 +1,7 @@
 # SATA-Bench
 <img src="imgs/sata_llamas.png" width="60%">
+SATA-Bench is the first comprehensive benchmark designed specifically to evaluate Large Language Models (LLMs) on "Select All That Apply" (SATA) multiple-choice questions.
+
 This repo contains code for SATA-Bench including dataset, evaluation scripts, and methods implementation.
 
 ## 🗂️ Repo Structure
