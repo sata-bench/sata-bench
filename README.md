@@ -1,13 +1,18 @@
 # SATA-Bench
 <img src="imgs/sata_llamas.png" width="60%">
-This repo contains code for SATA-Bench including dataset curation, methods, evaluation, and metrics.
+This repo contains code for SATA-Bench including dataset, evaluation scripts, and methods implementation.
 
-## Structure
+## Repo Structure
 
-- **dataset**: Dataset curation and preparation
-- **methods**: Implementation of methods being benchmarked
-- **evaluation**: Framework for evaluating method performance
-- **metrics**: Performance metrics calculation
+src/satabench/
+├── evaluation/           # scripts for evaluating LLMs in paper Section3
+│   ├── dataset/          # contains a test dataset to use
+│   └── metrics/          # metrics implementation
+|
+├── methods/              # methods implementation in paper Section4
+│   ├── choice_funnel/    # Choice funnel algorithm
+│   ├── data/             # contains a test dataset to use
+│   └── utils/            # utility functions
 
 ## 📋 Quick Start
 
